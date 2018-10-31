@@ -15,14 +15,14 @@ public abstract class AbstractJSModule implements JSModule {
      *  A read-only properties, do not cache this properties
      *  
      */
-    public AbstractJSModule(Properties props) {
+    public AbstractJSModule(Properties props, ILogger logger) {
         
     }
     
     /**
      * If you do not need to get initialised properties, implement this constructor 
      */
-    public AbstractJSModule() {
+    public AbstractJSModule(ILogger logger) {
         
     }
 

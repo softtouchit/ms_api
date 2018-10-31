@@ -3,8 +3,6 @@ package org.xmlpipe.ms.api;
 /**
  * All programming model is single threaded so there is no need to worry about lock etc
  * 
- * @author haohe
- *
  */
 public interface ProtocolHandler {
     
